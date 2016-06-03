@@ -1,16 +1,16 @@
-# nightwatch_simple_demo
+# nightwatch_simple_demo #
 
-	### install 
+	### install ######
 	sh shell.sh install
 
-	### server 
+	### server ######
 	sh shell.sh server
 
-	### test browser chrome
+	### test browser chrome ######
 	sh shell.sh chrome
 	
-	### test browser firefox
+	### test browser firefox ######
 	sh shell.sh default
 
-	### test browser chrome mobile
+	### test browser chrome mobile ######
 	sh shell.sh mobile
