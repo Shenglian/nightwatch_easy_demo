@@ -1,14 +1,16 @@
-
 # nightwatch_simple_demo
 
-First ==>
+	### install 
+	sh shell.sh install
 
-	npm install
+	### server 
+	sh shell.sh server
 
-Second ==>
+	### test browser chrome
+	sh shell.sh chrome
+	
+	### test browser firefox
+	sh shell.sh default
 
-	start: selenium-server -p 4444
-	stop: http://localhost:4444/selenium-server/driver/?cmd=shutDownSeleniumServer
-	nightwatch -c ./Nightwatch.js --env default
-
-	defalut/chromemobile/chrome
+	### test browser chrome mobile
+	sh shell.sh mobile
