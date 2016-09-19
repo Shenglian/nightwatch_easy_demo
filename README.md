@@ -14,3 +14,7 @@
 
 	## test browser chrome mobile
 	$ sh shell.sh mobile
+
+
+### 20160919
+[參考資料](https://github.com/vvo/selenium-standalone)

@@ -1,14 +1,13 @@
 module.exports = {
   before : function(browser) {
-      console.log("Let's Start...");
-      
+    console.log("Let's Start...");
   },
   after : function(browser) {
-      console.log("Closing down...");
+    console.log("Closing down...");
   },
   'CK Mobile Index Cookie Name': function(browser){
     browser
-    .url('http://ck101.com/forum.php')
+    .url('http://sh.gomaji.com/login')
     .waitForElementVisible('body', 1000)
     .pause(1000)
     .click('div[class=topLeft]')
